@@ -7,6 +7,7 @@
     <link rel="icon" href="https://uxwing.com/wp-content/themes/uxwing/download/animals-and-birds/bird-icon.png">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <!--<script src="Chart.js"></script>-->
   </head>
   <body>
 
@@ -30,13 +31,17 @@
           <option value="casi-amenazado">Casi amenazado</option>
           <option value="vulnerable">Vulnerable</option>
         </select>
-     <!--   <input type="text" name="Search" id="search" placeholder="Buscar Ave..."> -->
-        <button id="statistics">Estadísticas</button>
-        <dialog id="statisticsWindos">
-          <h1> Estadisticas </h1>
-          <p> </p>
-          <button id="statisticsClose"> Cerrar </button>
-        </dialog>
+        <!-- <input type="text" name="Search" id="search" placeholder="Buscar Ave..."> -->
+        <button id="buttonStatistics">Estadísticas</button>
+        <!--<dialog open id="statisticsWindos"> la ventana modal se abre desde el inicio--> 
+          <dialog id="statisticsWindowOpen">
+            <h3 id="titleStatistics"> Estadísticas 
+              <button id="statisticsWindowClose"> X </button>
+            </h3>
+             <section class="contentStatistics">
+                <!--<canvas id="myChart"></canvas>-->
+             </section>
+          </dialog>
         <button id="reset-button" title="Limpiar">Limpiar</button>
       </h2>
 
@@ -52,6 +57,7 @@
     <footer>
       <p>Developed by Daisy C. H.,  Milen P. G.</p>
     </footer>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
     <script src="main.js" type="module"></script>
   </body>
 </html>

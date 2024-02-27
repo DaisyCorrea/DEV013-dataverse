@@ -30,3 +30,9 @@ export const renderItems = (data) => {
   return cardsContainer;
 };
 
+/*<button id= "buttonInfo"> ... más </button>
+<dialog id="infoBird">
+  <button id="closeInfo"> X </button>
+  <h1 id="titleInfo"> DESCRIPCIÓN </h1>        
+     <p1 class='contentBird'> ${birdData[i].description}</p>
+  </dialog>*/
